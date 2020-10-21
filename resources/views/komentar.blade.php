@@ -18,22 +18,24 @@
   </nav>
 @endsection
 
+@section('kolom')
 @section('content')
 <div class="card mt-5 mb-3" style="max-width: 1080px;">
-    <div class="row no-gutters">
-      <div class="col-md-8">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-          <button type="button" class="btn btn-primary btn-sm">Like</button>
-          <button type="button" class="btn btn-primary btn-sm">Dislike</button>
-          <button type="button" class="btn btn-primary btn-sm">Komentar</button>
+            <p class="card-text d-flex flex-row-reverse"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <button type="button" class="btn btn-primary btn-sm">Like</button>
+            <button type="button" class="btn btn-primary btn-sm">Dislike</button>
+            {{-- komentar --}}
+            <div class="media text-muted pt-3">
+                <p class="media-body pb-3 mb-0 small lh-125 border-top border-gray">
+              <strong class="d-block text-gray-dark pt-2">@username</strong>
+              Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+            </p>
+          </div>
         </div>
       </div>
     </div>
   </div>
-
 @endsection
-
-
