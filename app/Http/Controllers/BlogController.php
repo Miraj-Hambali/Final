@@ -59,9 +59,10 @@ class BlogController extends Controller
      * @param  \App\blog  $blog
      * @return \Illuminate\Http\Response
      */
-    public function show(blog $blog)
+    public function show($id)
     {
-        //
+        $blog = Blog::find($id);
+        return view('blog.show')->with(['blog' => $blog]);
     }
 
     /**
