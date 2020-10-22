@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\blog;
 use Illuminate\Http\Request;
+use Auth;
 
 class BlogController extends Controller
 {
@@ -14,7 +15,8 @@ class BlogController extends Controller
      */
     public function index()
     {
-        return view('blog');
+        $postingan = Blog::all();
+        return view('blog')->with(['postingan' => $postingan]);
     }
 
     /**
@@ -35,10 +37,23 @@ class BlogController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $data = $request->all();
+        if ($files = $request->file('gambar')) {
+            $destinationPath = 'gambar/';
+            $profileImage = date('YmdHis') . "." . $files->getClientOriginalExtension();
+            $files->move($destinationPath, $profileImage);
+        }
+        $blog = new Blog;
+        $blog->judul = $request->judul;
+        $blog->isi = $request->isi;
+        $blog->image = $profileImage;
+        $blog->user_id = Auth::user()->id;
+        $blog->save();
+
+        return redirect(route('blog.index'));
     }
 
-    /**
+    /** 
      * Display the specified resource.
      *
      * @param  \App\blog  $blog

@@ -16,16 +16,20 @@
         </li>
     </div>
   </nav>
+
 @endsection
 
 @section('content')
+@foreach ($postingan as $item)
+
 <div class="card mt-5 mb-3" style="max-width: 1080px;">
     <div class="row no-gutters">
       <div class="col-md-8">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <h5 class="card-title">{{$item->judul}}</h5>
+          <p class="card-text">{{$item->isi}}</p>
+          <img src="/gambar/{{$item->image}}">
+          <p class="card-text"><small class="text-muted">{{$item->created_at}}</small></p>
           <button type="button" class="btn btn-primary btn-sm">Like</button>
           <button type="button" class="btn btn-primary btn-sm">Dislike</button>
           <button type="button" class="btn btn-primary btn-sm">Komentar</button>
@@ -34,6 +38,9 @@
     </div>
   </div>
 
+@endforeach
+
 @endsection
+
 
 

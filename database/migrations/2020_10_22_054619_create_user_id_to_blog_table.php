@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateUserToBlogsTable extends Migration
+class CreateUserIdToBlogTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,9 +13,10 @@ class CreateUserToBlogsTable extends Migration
      */
     public function up()
     {
-        Schema::create('user_to_blogs', function (Blueprint $table) {
-            $table->bigIncrements('id');
-            $table->timestamps();
+        Schema::table('blogs', function (Blueprint $table) {
+
+            $table->unsignedBigInteger('user_id')->constrained()->onDelete('cascade');
+            $table->foreign('user_id')->references('id')->on('users');
         });
     }
 
@@ -26,6 +27,8 @@ class CreateUserToBlogsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('user_to_blogs');
+        Schema::table('blogs', function (Blueprint $table) {
+            //
+        });
     }
 }
