@@ -18,6 +18,7 @@ Route::get('/', function () {
 
 
 Route::resource('blog', 'BlogController');
+Route::resource('komentar', 'KomentarController');
 
 Auth::routes();
 
