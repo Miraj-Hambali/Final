@@ -8,7 +8,7 @@
       <div class="col-md-8">
         <div class="card-body">
 
-          <a href="/blog/show/{{$item->id}}" style="text-decoration:none" class="text-dark">
+          <a href="blog/{{$item->id}}" style="text-decoration:none" class="text-dark">
          
             <h5 class="card-title">{{$item->judul}}</h5>
           
