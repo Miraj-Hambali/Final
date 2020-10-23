@@ -71,9 +71,10 @@ class BlogController extends Controller
      * @param  \App\blog  $blog
      * @return \Illuminate\Http\Response
      */
-    public function edit(blog $blog)
+    public function edit($id)
     {
-        //
+        $blog = Blog::find($id);
+        return view('blog.edit')->with(['blog' => $blog]);
     }
 
     /**
