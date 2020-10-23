@@ -14,6 +14,7 @@
                           <p class="card-text"><small class="text-muted">{{$blog->created_at}}</small></p>
                           <button type="button" class="btn btn-primary btn-sm">Like</button>
                           <button type="button" class="btn btn-primary btn-sm">Dislike</button>
+                          <button type="button" class="btn btn-primary btn-sm">Edit</button>
 
                           <div class="img-push mt-2">
                             <input type="text" class="form-control form-control-sm" placeholder="Press enter to post comment">

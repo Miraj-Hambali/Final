@@ -20,7 +20,7 @@
           <p class="card-text"><small class="text-muted">{{$item->created_at}}</small></p>
           <button type="button" class="btn btn-primary btn-sm">Like</button>
           <button type="button" class="btn btn-primary btn-sm">Dislike</button>
-          <button type="button" class="btn btn-primary btn-sm"><a href="/show/{{$item->id}}" style="text-decoration:none" class="text-light"> Komentar </a> </button>
+          <button type="button" class="btn btn-primary btn-sm"><a href="/blog/{{$item->id}}" style="text-decoration:none" class="text-light"> Komentar </a> </button>
         </div>
       </div>
     </div>
