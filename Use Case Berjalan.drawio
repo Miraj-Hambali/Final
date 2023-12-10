@@ -1,9 +1,68 @@
-<mxfile host="app.diagrams.net" modified="2023-12-10T14:18:19.379Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" version="22.1.7" etag="9esPqCpTNqXe1KjT6yy5" type="github">
-  <diagram name="Halaman-1" id="sE8euYLZoHedWBiBs9_M">
-    <mxGraphModel>
+<mxfile host="app.diagrams.net" modified="2023-12-10T14:19:56.767Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="9dhCDvsGBfKFGJ4VWxbZ" version="22.1.7" type="github">
+  <diagram name="Page-1" id="sE8euYLZoHedWBiBs9_M">
+    <mxGraphModel dx="1246" dy="701" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;font style=&quot;font-size:16.93px;font-family:Calibri;color:#000000;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;Belajar Mengenal Huruf&lt;br/&gt;&lt;/font&gt;&lt;/div&gt;" tags="Latar" id="KVUIqT3TtKT439Qb3KqG-3">
+          <mxCell style="verticalAlign=middle;align=center;overflow=width;vsdxID=26;fillColor=#d8d8d8;gradientColor=none;shape=stencil(vVHLDsIgEPwajiQI6RfU+h8bu22JCGRB2/69kG1iazx58DazM/vIjjBtmiCi0CplCjecbZ8nYc5Ca+snJJsLEqYTph0C4Ujh4XvmEaqzont41gkL96naodXKrGF6YSfQtUi0OXXDVlqPfJNP6usotUhYbJIUMmQb/GGrAxpRljVycDBuc1hKM2LclX8/7H9nFfB+82Cd45T2+mcspcSRmu4F);strokeColor=#000000;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+            <mxGeometry x="863" y="280" width="217" height="57" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;font style=&quot;font-size:16.93px;font-family:Calibri;color:#000000;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;Belajar Membedakan &lt;br/&gt;Bentuk Huruf&lt;br/&gt;&lt;/font&gt;&lt;/div&gt;" tags="Latar" id="KVUIqT3TtKT439Qb3KqG-4">
+          <mxCell style="verticalAlign=middle;align=center;overflow=width;vsdxID=27;fillColor=#d8d8d8;gradientColor=none;shape=stencil(vVHLDsIgEPwajiQI6RfU+h8bu22JCGRB2/69kG1iazx58DazM/vIjjBtmiCi0CplCjecbZ8nYc5Ca+snJJsLEqYTph0C4Ujh4XvmEaqzont41gkL96naodXKrGF6YSfQtUi0OXXDVlqPfJNP6usotUhYbJIUMmQb/GGrAxpRljVycDBuc1hKM2LclX8/7H9nFfB+82Cd45T2+mcspcSRmu4F);strokeColor=#000000;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+            <mxGeometry x="847" y="403" width="234" height="58" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;font style=&quot;font-size:16.93px;font-family:Calibri;color:#000000;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;Belajar Cara Penyebutan Huruf&lt;br/&gt;&lt;/font&gt;&lt;/div&gt;" tags="Latar" id="KVUIqT3TtKT439Qb3KqG-5">
+          <mxCell style="verticalAlign=middle;align=center;overflow=width;vsdxID=28;fillColor=#d8d8d8;gradientColor=none;shape=stencil(vVHLDsIgEPwajiQI6RfU+h8bu22JCGRB2/69kG1iazx58DazM/vIjjBtmiCi0CplCjecbZ8nYc5Ca+snJJsLEqYTph0C4Ujh4XvmEaqzont41gkL96naodXKrGF6YSfQtUi0OXXDVlqPfJNP6usotUhYbJIUMmQb/GGrAxpRljVycDBuc1hKM2LclX8/7H9nFfB+82Cd45T2+mcspcSRmu4F);strokeColor=#000000;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+            <mxGeometry x="826" y="524" width="276" height="57" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;font style=&quot;font-size:16.93px;font-family:Calibri;color:#000000;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;Belajar Membedakan&lt;br/&gt;Bentuk Huruf Secara Detail&lt;br/&gt;Dengan Bentuk dan Suara&lt;br/&gt;&lt;/font&gt;&lt;/div&gt;" tags="Latar" id="KVUIqT3TtKT439Qb3KqG-6">
+          <mxCell style="verticalAlign=middle;align=center;overflow=width;vsdxID=44;fillColor=#d8d8d8;gradientColor=none;shape=stencil(vVHLDsIgEPwajiQI6RfU+h8bu22JCGRB2/69kG1iazx58DazM/vIjjBtmiCi0CplCjecbZ8nYc5Ca+snJJsLEqYTph0C4Ujh4XvmEaqzont41gkL96naodXKrGF6YSfQtUi0OXXDVlqPfJNP6usotUhYbJIUMmQb/GGrAxpRljVycDBuc1hKM2LclX8/7H9nFfB+82Cd45T2+mcspcSRmu4F);strokeColor=#000000;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+            <mxGeometry x="832" y="642" width="285" height="95" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" tags="Connector" id="KVUIqT3TtKT439Qb3KqG-7">
+          <mxCell style="vsdxID=57;edgeStyle=none;startArrow=none;endArrow=none;startSize=5;endSize=5;strokeColor=#000000;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;verticalAlign=middle;html=1;labelBackgroundColor=#ffffff;rounded=0;exitX=1.0113636363636365;exitY=0.5789473684210527;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.1824561403508772;entryY=0.11578947368421053;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="KVUIqT3TtKT439Qb3KqG-6">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint as="offset" />
+              <Array as="points" />
+              <mxPoint x="439" y="472" as="sourcePoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" tags="Connector" id="KVUIqT3TtKT439Qb3KqG-8">
+          <mxCell style="vsdxID=56;edgeStyle=none;startArrow=none;endArrow=none;startSize=5;endSize=5;strokeColor=#000000;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;verticalAlign=middle;html=1;labelBackgroundColor=#ffffff;rounded=0;exitX=1.0113636363636365;exitY=0.5350877192982456;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.11594202898550725;entryY=0.19298245614035087;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="KVUIqT3TtKT439Qb3KqG-5">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="-1" y="-1" as="offset" />
+              <Array as="points" />
+              <mxPoint x="439" y="462" as="sourcePoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" tags="Connector" id="KVUIqT3TtKT439Qb3KqG-9">
+          <mxCell style="vsdxID=54;edgeStyle=none;startArrow=none;endArrow=none;startSize=5;endSize=5;strokeColor=#000000;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;verticalAlign=middle;html=1;labelBackgroundColor=#ffffff;rounded=0;exitX=1.0113636363636365;exitY=0.4956140350877193;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.004273504273504274;entryY=0.5689655172413793;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="KVUIqT3TtKT439Qb3KqG-4">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="-1" as="offset" />
+              <Array as="points" />
+              <mxPoint x="439" y="453" as="sourcePoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" tags="Connector" id="KVUIqT3TtKT439Qb3KqG-10">
+          <mxCell style="vsdxID=53;edgeStyle=none;startArrow=none;endArrow=none;startSize=5;endSize=5;strokeColor=#000000;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;verticalAlign=middle;html=1;labelBackgroundColor=#ffffff;rounded=0;exitX=1.0113636363636365;exitY=0.4517543859649123;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.14285714285714285;entryY=0.8421052631578947;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="KVUIqT3TtKT439Qb3KqG-3">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="-1" as="offset" />
+              <Array as="points" />
+              <mxPoint x="439" y="443" as="sourcePoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <mxCell id="KVUIqT3TtKT439Qb3KqG-11" value="Actor / Siswa" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="354" y="281" width="170" height="330" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
